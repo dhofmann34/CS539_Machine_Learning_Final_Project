@@ -1,5 +1,5 @@
-#Final Project for CS 539 Machine learning: Pet finder application
-###Dennis Hofmann, Avantika Shrestha, Oluseun Olulana, Marcela Vasconcellos, Fatemeh Farajzadeh
+# Final Project for CS 539 Machine learning: Pet finder application
+### Dennis Hofmann, Avantika Shrestha, Oluseun Olulana, Marcela Vasconcellos, Fatemeh Farajzadeh
 
 Our goal is to develop a method that matches two images of the same pet. This would be extremely useful in a lost pet situation. If a person finds a pet, they can take a picture of them and upload it. Our method will convert that image into a latent vector that captures the pets core features. Our database is then queried for similar latent vectors. If a similar image is found, that image along with the contact information of the person that uploaded the image is returned. If a similar image is not found the image’s latent vector is stored in our database until the owner of the lost pet submits their image and the lost pet is reunited with its correct owner.
 
