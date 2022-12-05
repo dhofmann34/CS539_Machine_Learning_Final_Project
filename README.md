@@ -14,4 +14,6 @@ For our model we chose to leverage an autoencoder. Autoencoders have shown to wo
 3. <b>Testing:</b>
 To test our method, we first randomly select 2 images of the same pet from our testing dataset. We first upload the noisy image to represent the image taken by the person that found the pet, and then we upload the clean image to represent the image from the owner. We then observe if the two image’s latent vectors can be matched based on similarity. So far, we not observed any mistakes but as the database size continues to grow we may have to make our model more complex. 
 
+There are two main steps needed for future work. First, we can further improve model training by tunning the current model or developing a new technique. Second, we can build an easy-to-use UI that makes our work more accessible to non-technical users. 
+
 Training is set up to be done on GPU and ran on WPI's high-performance computing cluster (Turing). Notebook was ran on Google Colab and data was stored on Google drive. Ran on python 3.8 and please see requirments.txt for more information of packages.
