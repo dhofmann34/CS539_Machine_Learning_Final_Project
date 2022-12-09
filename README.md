@@ -3,6 +3,8 @@
 
 Our goal is to develop a method that matches two images of the same pet. This would be extremely useful in a lost pet situation. If a person finds a pet, they can take a picture of them and upload it. Our method will convert that image into a latent vector that captures the pets core features. Our database is then queried for similar latent vectors. If a similar image is found, that image along with the contact information of the person that uploaded the image is returned. If a similar image is not found the image’s latent vector is stored in our database until the owner of the lost pet submits their image and the lost pet is reunited with its correct owner.
 
+![Alt text](https://github.com/dhofmann34/CS539_Machine_Learning_Final_Project/blob/main/img/framework.jpg "Framework")
+
 This project consists of 3 main parts. First, we prepare the dataset, then we train our model, and lastly, we test our method. We use this notebook file to prepare the dataset and test our method, but we use the remining python files in the directory to train our model. Due to the size of our dataset, training had to be conducted on a high-performance computing cluster.
 
 ### 1. <b>Preparing the data:</b>
