@@ -7,6 +7,7 @@ This project consists of 3 main parts. First, we prepare the dataset, then we tr
 
 ### 1. <b>Preparing the data:</b>
 ![Alt text](https://github.com/dhofmann34/CS539_Machine_Learning_Final_Project/blob/main/img/data_processing.jpg "Data Augmentation")
+
 For our dataset we are using the Dogs vs. Cats dataset from Kaggle (https://www.kaggle.com/c/dogs-vs-cats). This dataset consists of 25,000 images of both cats and dogs. To represent two different images of the same pet we augment the dataset by duplicating the dataset of images. Instead of 25,000 images we now have 50,000 where each pet has two images, one to represent the owner’s image and one to represent the image taken by the person that found the pet. Of course, we cannot assume that the pet owner and finder would take the exact same image, so we removed the background of all images, randomly added noise, randomly flipped images, and randomly rotated images.
 
 2. <b>Model training:</b>
