@@ -5,7 +5,7 @@ Our goal is to develop a method that matches two images of the same pet. This wo
 
 ![Alt text](https://github.com/dhofmann34/CS539_Machine_Learning_Final_Project/blob/main/img/framework.jpg "Framework")
 
-This project consists of 3 main parts. First, we prepare the dataset, then we train our model, and lastly, we test our method. We use this notebook file to prepare the dataset and test our method, but we use the remining python files in the directory to train our model. Due to the size of our dataset, training had to be conducted on a high-performance computing cluster.
+This project consists of 3 main parts. First, we prepare the dataset, then we train our model, and lastly, we test our method. We use the jupyter notebook file in the directory to prepare the dataset and test our method, but we use the remining python files to train our model. Due to the size of our dataset, training had to be conducted on WPI's high-performance computing cluster.
 
 ## 1. <b>Preparing the data:</b>
 ![Alt text](https://github.com/dhofmann34/CS539_Machine_Learning_Final_Project/blob/main/img/data_processing.jpg "Data Augmentation")
